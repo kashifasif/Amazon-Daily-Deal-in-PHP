@@ -5,7 +5,7 @@ A executable scripts in PHP to download Amazon Daily Deal Product Information
 # How to Config it for cron job
 If you want to make a php script executable, e.g. by typing ./script-name.php, you’ll want to add the following line to the top of the document:
 
-#!/usr/bin/env php
+#!/usr/bin/env php####
 Yes, that goes before the <?php statement. You’ll also want to let your *nix environment know that the file is executable. You can do this by typing:
 
 chmod u+x filename.php

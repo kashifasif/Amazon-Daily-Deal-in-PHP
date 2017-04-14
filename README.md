@@ -1,9 +1,9 @@
-# Amazon Daily Deal executable scripts in PHP
-Download Amazon Daily Deal using php and run it as cron job on any server
+# Download Amazon Daily Deal Product Information 
+A executable scripts in PHP to download Amazon Daily Deal Product Information 
 
 
 # How to Run it on Terminal for cron job
-f you want to make a php script executable, e.g. by typing ./script-name.php, you’ll want to add the following line to the top of the document:
+If you want to make a php script executable, e.g. by typing ./script-name.php, you’ll want to add the following line to the top of the document:
 
 # #!/usr/bin/env php
 Yes, that goes before the <?php statement. You’ll also want to let your *nix environment know that the file is executable. You can do this by typing:
